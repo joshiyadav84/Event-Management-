@@ -1,0 +1,6 @@
+{
+  "name": "AI-Powered College Event Management System",
+  "description": "Comprehensive academic event management platform featuring student registration, Google Calendar sync, admin controls, and an intelligent Gemini AI assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

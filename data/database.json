@@ -1,0 +1,173 @@
+{
+  "students": [
+    {
+      "student_id": "std_001",
+      "name": "Aarav Sharma",
+      "email": "aarav.sharma@college.edu",
+      "course": "B.Tech Computer Science",
+      "password_hash": "703b0a3d6ad75b649a28adde7d83c6251da457549263bc7ff45ec709b0a8448b",
+      "role": "student",
+      "created_at": "2026-09-01T09:00:00.000Z"
+    },
+    {
+      "student_id": "std_002",
+      "name": "Priya Patel",
+      "email": "priya.patel@college.edu",
+      "course": "MBA Business Analytics",
+      "password_hash": "703b0a3d6ad75b649a28adde7d83c6251da457549263bc7ff45ec709b0a8448b",
+      "role": "student",
+      "created_at": "2026-09-02T10:00:00.000Z"
+    },
+    {
+      "student_id": "std_003",
+      "name": "Rohan Verma",
+      "email": "rohan.verma@college.edu",
+      "course": "B.Tech Information Technology",
+      "password_hash": "703b0a3d6ad75b649a28adde7d83c6251da457549263bc7ff45ec709b0a8448b",
+      "role": "student",
+      "created_at": "2026-09-05T11:30:00.000Z"
+    },
+    {
+      "student_id": "std_004",
+      "name": "Ananya Gupta",
+      "email": "ananya.gupta@college.edu",
+      "course": "M.Tech AI & Data Science",
+      "password_hash": "703b0a3d6ad75b649a28adde7d83c6251da457549263bc7ff45ec709b0a8448b",
+      "role": "student",
+      "created_at": "2026-09-10T14:15:00.000Z"
+    },
+    {
+      "student_id": "adm_001",
+      "name": "Prof. Rajesh K. Nair",
+      "email": "admin@college.edu",
+      "course": "Department of Academic Affairs",
+      "password_hash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "role": "admin",
+      "created_at": "2026-08-15T08:00:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "evt_001",
+      "name": "AI & Machine Learning Workshop",
+      "description": "Deep dive into practical Neural Networks, LLMs with Gemini, and hands-on PyTorch model deployment for real-world academic projects.",
+      "date": "2026-10-10",
+      "time": "10:00 AM - 01:00 PM",
+      "venue": "Seminar Hall A, Tech Block 3",
+      "category": "Artificial Intelligence",
+      "speaker": "Dr. Vivek Malhotra, Principal AI Researcher at Tech Labs",
+      "maximum_capacity": 60,
+      "current_registration_count": 26,
+      "created_at": "2026-09-20T10:00:00.000Z",
+      "updated_at": "2026-10-08T12:10:06.078Z"
+    },
+    {
+      "event_id": "evt_002",
+      "name": "Business Analytics Workshop",
+      "description": "Comprehensive case studies in predictive forecasting, Tableau dashboards, and revenue optimization for future business leaders.",
+      "date": "2026-10-14",
+      "time": "02:00 PM - 05:00 PM",
+      "venue": "Auditorium 2, Management Block",
+      "category": "Business Analytics",
+      "speaker": "Meera Deshmukh, VP of Data Science at Apex Analytics",
+      "maximum_capacity": 50,
+      "current_registration_count": 48,
+      "created_at": "2026-09-22T11:00:00.000Z",
+      "updated_at": "2026-09-22T11:00:00.000Z"
+    },
+    {
+      "event_id": "evt_003",
+      "name": "Cybersecurity Awareness Seminar",
+      "description": "Defensive computing, ethical hacking fundamentals, zero-day threat analysis, and safeguarding digital infrastructure on campus.",
+      "date": "2026-10-18",
+      "time": "11:00 AM - 01:30 PM",
+      "venue": "Main Campus Convention Center",
+      "category": "Cybersecurity",
+      "speaker": "Col. K. Srinivas (Retd.), Cyber Defense Consultant",
+      "maximum_capacity": 100,
+      "current_registration_count": 70,
+      "created_at": "2026-09-25T09:30:00.000Z",
+      "updated_at": "2026-09-25T09:30:00.000Z"
+    },
+    {
+      "event_id": "evt_004",
+      "name": "Digital Marketing Masterclass",
+      "description": "Growth marketing, multi-channel customer acquisition, SEO optimization, and data-driven branding strategies for collegiate startups.",
+      "date": "2026-10-22",
+      "time": "03:00 PM - 06:00 PM",
+      "venue": "Media Lab 1, Humanities Wing",
+      "category": "Marketing",
+      "speaker": "Siddharth Rao, Founder at GrowthPulse Digital",
+      "maximum_capacity": 40,
+      "current_registration_count": 40,
+      "created_at": "2026-09-28T14:00:00.000Z",
+      "updated_at": "2026-09-28T14:00:00.000Z"
+    },
+    {
+      "event_id": "evt_005",
+      "name": "Entrepreneurship & Startup Seminar",
+      "description": "From idea validation to VC pitch decks: angel investing, intellectual property, incubation grants, and launching a college venture.",
+      "date": "2026-10-28",
+      "time": "10:30 AM - 01:30 PM",
+      "venue": "Innovation & Incubation Center, Hall B",
+      "category": "Entrepreneurship",
+      "speaker": "Kavita Sundaram, Venture Partner at Genesis Seed Fund",
+      "maximum_capacity": 75,
+      "current_registration_count": 32,
+      "created_at": "2026-10-01T10:00:00.000Z",
+      "updated_at": "2026-10-01T10:00:00.000Z"
+    },
+    {
+      "event_id": "evt_006",
+      "name": "Cloud Native & DevOps Symposium",
+      "description": "Modern microservices with Kubernetes, Docker containers, CI/CD pipelines, and cloud reliability engineering patterns.",
+      "date": "2026-11-05",
+      "time": "09:30 AM - 12:30 PM",
+      "venue": "Computer Science Lab Complex 4",
+      "category": "Cloud Computing",
+      "speaker": "Naveen Joshi, Lead SRE Architect",
+      "maximum_capacity": 45,
+      "current_registration_count": 18,
+      "created_at": "2026-10-02T12:00:00.000Z",
+      "updated_at": "2026-10-02T12:00:00.000Z"
+    }
+  ],
+  "registrations": [
+    {
+      "registration_id": "reg_001",
+      "student_id": "std_001",
+      "event_id": "evt_002",
+      "registration_date": "2026-09-25T14:30:00.000Z",
+      "status": "confirmed",
+      "calendar_event_id": "gcal_mock_001_aarav_ba",
+      "created_at": "2026-09-25T14:30:00.000Z"
+    },
+    {
+      "registration_id": "reg_002",
+      "student_id": "std_002",
+      "event_id": "evt_001",
+      "registration_date": "2026-09-26T10:15:00.000Z",
+      "status": "confirmed",
+      "calendar_event_id": "gcal_mock_002_priya_ai",
+      "created_at": "2026-09-26T10:15:00.000Z"
+    },
+    {
+      "registration_id": "reg_003",
+      "student_id": "std_003",
+      "event_id": "evt_003",
+      "registration_date": "2026-09-28T09:00:00.000Z",
+      "status": "confirmed",
+      "calendar_event_id": "gcal_mock_003_rohan_sec",
+      "created_at": "2026-09-28T09:00:00.000Z"
+    },
+    {
+      "registration_id": "reg_202fc099",
+      "student_id": "std_001",
+      "event_id": "evt_001",
+      "registration_date": "2026-10-08T12:10:06.078Z",
+      "status": "confirmed",
+      "calendar_event_id": "gcal_evt_c1a312da108e",
+      "created_at": "2026-10-08T12:10:06.078Z"
+    }
+  ]
+}
